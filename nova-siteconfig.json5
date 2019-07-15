@@ -20,13 +20,13 @@
     // Configuration options for the QSS window
     qss: {
         // Determines if the QSS will be shown automatically on Morphic's startup
-        showQssOnStart: true,
+        showQssOnStart: false,
 
         // Defines the delay in milliseconds before the tooltip is shown after a QSS button is selected
         tooltipDisplayDelay: 500, // ms
 
         // The scaling factor for the QSS
-        scaleFactor: 1.4,
+        scaleFactor: 1.2,
         urls: {
             account: "http://morphic.world/account",
             cloudFolder: "https://docs.google.com/document/d/1D6WDkLHLdbftqBwJ_M7XBeyunCyyuoL0oSsMDRKHod0/"
@@ -88,7 +88,7 @@
     // applications may need to be restarted in order for a changed setting to be
     // fully applied. An example for such setting is `Language`.
     // If set to `true`, such notifications will NOT be displayed.
-    disableRestartWarning: false,
+    disableRestartWarning: true,
 
     // Whether to hide the PSP when a user clicks outside of it
     closePspOnClickOutside: true,
@@ -100,8 +100,8 @@
     qssMorePanel: {
         // These are default values. The actual dimensions of the QSS more panel
         // are qssScaleFactor * defaultWidth and qssScaleFactor * defaultHeight.
-        defaultWidth: 400,
-        defaultHeight: 300,
+        defaultWidth: 600,
+        defaultHeight: 450,
         movable: true,
         resizable: true,
         alwaysOnTop: true,
